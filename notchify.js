@@ -1,6 +1,6 @@
 (function(){
   const div = document.createElement('div');
-  div.style.position = 'absolute';
+  div.style.position = 'fixed';
   div.style.top = '0';
   div.style.left = '40%';
   div.style.width = '20%';
