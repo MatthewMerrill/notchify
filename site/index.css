@@ -1,0 +1,43 @@
+html {
+  background-color: rgb(154, 77, 165);
+  width: 100%;
+}
+body {
+  width: 100%;
+}
+
+pre {
+  display: inline-block;
+  margin: .5em auto;
+  background-color: rgb(200, 200, 200);
+  border: double black;
+  padding: 0 1ch;
+}
+
+#header {
+  border: none; 
+  color: rgb(154, 77, 165);
+}
+
+#desc {
+  display: block;
+  width: 90ch;
+  white-space: pre-wrap;
+}
+
+.code {
+  width: 80ch;
+  overflow-x: scroll;
+}
+
+h1 {
+  display: inline;
+  font-size: 1em;
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
+}
+h1:before {
+  content: '# ';
+}
+
