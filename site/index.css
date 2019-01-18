@@ -14,6 +14,16 @@ pre {
   padding: 0 1ch;
 }
 
+a {
+  color: rgb(108, 66, 114);
+}
+a:visited {
+  color: rgb(108, 66, 114);
+}
+a:hover {
+  font-style: oblique;
+}
+
 #header {
   border: none; 
   color: rgb(154, 77, 165);
